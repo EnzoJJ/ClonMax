@@ -409,7 +409,7 @@ nav .nav-centro li a:hover {
 .galardones {
     position: relative;
     top: -100px;
-    background: url('/img/fondoArgentina.webp');
+    background: url('../img/fondoArgentina.webp');
     display: flex;
     justify-content: space-between;
     align-items: center;
