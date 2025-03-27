@@ -1,4 +1,3 @@
-/* style.css */
 body {
     background: linear-gradient(to bottom, rgb(2, 2, 14) 70%, rgb(21, 20, 88) 100%);
     background-attachment: fixed;
@@ -12,6 +11,7 @@ header {
     padding: 10px 0;
     position: relative;
     width: 98vw;
+    top: 10px;
     z-index: 5;
 }
 
@@ -25,6 +25,7 @@ nav ul.nav-lista {
 
 /* Le cambiamos el color al svg */
 .logo-svg {
+    position: relative;
     filter: brightness(0) invert(1);
     height: 60px; 
     width: auto;
